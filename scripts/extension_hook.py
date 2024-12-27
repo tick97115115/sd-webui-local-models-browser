@@ -16,7 +16,7 @@ from dataclasses import dataclass
 
 from modules.ui_extra_networks import quote_js
 
-from lib.data_models import TagFrequency, DatasetDirs, BucketInfo, Buckets, Metadata, UserMetadata, ResponseBody_Lora, ErrorResponse
+from lmb_server.data_models import TagFrequency, DatasetDirs, BucketInfo, Buckets, Metadata, UserMetadata, ResponseBody_Lora, ErrorResponse
 
 class ExtraNetworksPageCustom(ui_extra_networks.ExtraNetworksPage):
     def __init__(self):
