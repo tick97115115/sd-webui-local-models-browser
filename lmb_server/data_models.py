@@ -126,3 +126,7 @@ class ErrorResponse(BaseModel):
     message: Optional[str] = None
 
 ### Lora model End
+
+class Response_Loras:
+    Loras: list[ResponseBody_Lora]
+    number: int

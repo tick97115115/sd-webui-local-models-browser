@@ -16,7 +16,7 @@ from dataclasses import dataclass
 
 from modules.ui_extra_networks import quote_js
 
-from lmb_server.data_models import TagFrequency, DatasetDirs, BucketInfo, Buckets, Metadata, UserMetadata, ResponseBody_Lora, ErrorResponse
+from lmb_server.data_models import TagFrequency, DatasetDirs, BucketInfo, Buckets, Metadata, UserMetadata, ResponseBody_Lora, ErrorResponse, Response_Loras
 
 class ExtraNetworksPageCustom(ui_extra_networks.ExtraNetworksPage):
     def __init__(self):
@@ -72,10 +72,7 @@ network_page = ExtraNetworksPageCustom()
     
 #     return net
 
-@dataclass
-class Response_Loras:
-    Loras: list[ResponseBody_Lora]
-    number: int
+
 
 def before_ui():
     """Register your custom tab."""
