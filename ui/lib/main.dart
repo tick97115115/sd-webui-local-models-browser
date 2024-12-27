@@ -123,3 +123,16 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+class LocalModelsBrowserHomePage extends StatefulWidget {
+  const LocalModelsBrowserHomePage({super.key})
+
+  @override
+  State<StatefulWidget> createState() {
+    
+  }
+}
+
+class _LocalModelsBrowserHomePage extends State<LocalModelsBrowserHomePage> {
+  // List<models>  I have to generate necessary client library first
+}
