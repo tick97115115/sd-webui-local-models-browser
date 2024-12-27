@@ -1,0 +1,13 @@
+{
+  "generatorName": "dart-dio",
+  "inputSpec": "http://127.0.0.1:3000/api-docs-json",
+  "enablePostProcessFile": true,
+  "additionalProperties": {
+    "pubName": "ebox_api_client",
+    "projectName": "Ebox API Client",
+    "projectDescription": "My API client for interacting with backend",
+    "pubAuthor": "APboi",
+    "useJsonSerializable": true
+  }
+}
+  

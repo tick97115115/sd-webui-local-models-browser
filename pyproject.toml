@@ -1,0 +1,20 @@
+[project]
+name = "local-models-browser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.6"
+dependencies = [
+    "fastapi[standard]==0.104.1",
+    "httpx==0.24.1",
+    "orjson==3.10.12",
+    "sqlmodel==0.0.22",
+]
+
+[dependency-groups]
+dev = [
+    "openapi-generator-cli[jdk4py]>=7.10.0.post0",
+]
+
+[tool.hatch.scripts]
+generate-client = "openapi-generator-cli"

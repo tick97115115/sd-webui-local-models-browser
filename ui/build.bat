@@ -1,1 +1,1 @@
-flutter build web --base-href /local-models-browser/
+flutter build web --base-href /local-models-browser/static/
